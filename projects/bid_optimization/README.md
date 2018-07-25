@@ -75,6 +75,8 @@ Everyone on the Data Science team has strengths and responsibilities. Among mine
 
 To make the COE more approachable to the CMs and other non-technical folks I developed COEy, our AI Slack bot. COEy enables users to enter simple commands in Slack and receive information about campaigns, brands, the weather, Barack Obama or other conversational information. The bot is essentially coey.py, a Python script which is as of this writing 2153 lines of code and auto-builds charts in Matplotlib and interacts with an API.ai back-end to facilitate contextual conversations.
 
+I've created the coey_example.py script in this directory which shows highly modified version of coey.py so as to not violate any IP from Pixbility. It shows how I connecting her to a local database (build_graphs.py), dialogflow.com (formerly API.ai) and Slack - so she can live in a Slack channel.
+
 
 While we've added many more features since the initial version, fast forwarding to now and we are supporting over 1500 simultaneous campaigns. The following, non-sensitive, slide shows the benefits of Performability: it achieves optimal pacing while at the same time maximizing customers’ KPI goals. 
 

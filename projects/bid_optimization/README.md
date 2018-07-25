@@ -3,8 +3,6 @@
 
 ## Summary
 
----
-
 **Problem:** Inefficient campaign bidding
 
 **Actions:** My team and I created a AI-based tool named Performability or the Campaign Optimization Engine (COE) which auto-bids the most appropriate bid amount

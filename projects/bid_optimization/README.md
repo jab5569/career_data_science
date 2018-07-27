@@ -69,20 +69,25 @@ I worked with Engineering to plan how Data Science would utilize their new progr
 
 Once the new code, data architecture and bidding API integrations were complete we ran the COE on a lone campaign. To ensure there was no false positive bias, the CM's ran the campaign manually for the first two weeks followed by the COE on it for the remaining two. At the end of that campaign I performed the analysis which showed convincingly that the COE was 25% more efficient than the human! I delivered the findings in a Tableau dashboard.
 
+As time went on and we became more confident in the COE's results, we refined the benefits not only to the company (reduced costs), we likewise started conveying the benefits to our customers. Not only did the COE provide cost efficiencies, through subsequent analysis it became clear that increased other metrics important to our customers. See below just one example of View Rate (VR) being improved. 
+
+![COE Results](images/COE-VR.png)
 
 Everyone on the Data Science team has strengths and responsibilities. Among mine is to report out the team's monthly achievements, during the monthly company meeting. Feedback that I've received on the COE has been interesting, impressions have ranged from initial excitement (from almost everyone including the CFO), to concern the COE is killing jobs, to making peace with the technology, and now back to excitement as we show integration of new features. 
 
 
+
+## Coey
 To make the COE more approachable to the CMs and other non-technical folks I developed COEy, our AI Slack bot. COEy enables users to enter simple commands in Slack and receive information about campaigns, brands, the weather, Barack Obama or other conversational information. The bot is essentially coey.py, a Python script which is as of this writing 2153 lines of code and auto-builds charts in Matplotlib and interacts with an API.ai back-end to facilitate contextual conversations.
 
 I've created the coey_example.py script in this directory which shows highly modified version of coey.py so as to not violate any IP from Pixbility. It shows how I connecting her to a local database (build_graphs.py), dialogflow.com (formerly API.ai) and Slack - so she can live in a Slack channel. Below is an example conversation where her responses was generated in diaglogflow.com.
 
-![Foobar](images/coey_in_slack.png)
+![COEY](images/coey_in_slack.png)
 
 While we've added many more features since the initial version, fast forwarding to now and we are supporting over 1500 simultaneous campaigns. The following, non-sensitive, slide shows the benefits of Performability: it achieves optimal pacing while at the same time maximizing customers’ KPI goals. 
 
 
-## The Heart of the COS
+## The Heart of the COE
 
 Determining the most appropriate bid level for any given campaign, within context of its objective, pacing type, and many other considerations is achieved through a Recurrent Neural Net using a Long Short Term Memory module. Using this approach not only provides us bid levels for tomorrow, but into the future as well. With this technology we can make inferences on future campaign spend. Eg, within a error range I can tell the CFO how much our marketing spend we'll likely incur for the remainder of the month. 
 

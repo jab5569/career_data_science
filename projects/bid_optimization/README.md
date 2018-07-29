@@ -11,7 +11,7 @@
 * Saved the company 25% in media costs per year (> $2M) while at the same time increasing customers' KPIs
 * Reduced campaign bidding time by 95% per day
 * Won awards from Google and Gartner for Innovation
-* The team and I submitted patent US62403367 by approval by the USPTO
+* The team and I submitted patent US62403367 for approval by the USPTO
 
 
 My team and I were tasked with increasing efficiency of campaign bidding, which is the core value proposition of Pixability, resulting in company saving $2M in operating costs per year.

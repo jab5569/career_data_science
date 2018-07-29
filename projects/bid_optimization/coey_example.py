@@ -65,25 +65,25 @@ def get_user_name(user_id):
         return None
 
 def help_menu():
-    """Helper function returning the Henry help menu
+    """Helper function returning the Coey help menu
     """
     return """ ```
     Possible Commands are:
         help
 
-        Henry:
+        Coey:
             show summary for <campaign_id>
             show current margin <ad grop id>
 
-        About the Henrybot:
+        About the Coeybot:
             who are you?
             how old are you?
             xkcd
 
         Examples:
-            '@henry who are you?'
-            '@henry show summary for 'xx3uy4etejjsrrt'
-            '@henry show current margin '23409864'
+            '@hCoey who are you?'
+            '@Coey show summary for 'xx3uy4etejjsrrt'
+            '@Coey show current margin '23409864'
 
     ```"""
 
@@ -94,9 +94,9 @@ def handle_command(command, channel, name_of_user, gcp_df_project_id, testing = 
     returns back what it needs for clarification.
 
     Args:
-        command:        Text that came after @henry or in a DM (str)
+        command:        Text that came after @Coey or in a DM (str)
         channel:        Channel on which to post response (int, str)
-        name_of_user:   Full name of person who spoke to Henry (str)
+        name_of_user:   Full name of person who spoke to Coey (str)
         testing:        Testing flag (int)
         context:        API.AI context (string)
 
@@ -181,7 +181,7 @@ def parse_slack_output(slack_rtm_output):
     if output_list and len(output_list) > 0:
         for output in output_list:
             """
-            checking to see if `@henry` is used or if it is a direct message;
+            checking to see if `@Coey` is used or if it is a direct message;
             channel and group check return dictionaries that have an `error` 
             and `ok` key. We expect the `ok` to be false for both if the channel 
             ID is from a direct message (because it wouldn't be listed as a public 
@@ -214,15 +214,15 @@ if __name__ == "__main__":
     # 1 second delay between reading from firehose
     READ_WEBSOCKET_DELAY = 1
 
-    # Adding a flag that Henry is in 'testing mode' sometimes
+    # Adding a flag that Coey is in 'testing mode' sometimes
     # This alerts users if he's currently being tested.
     parser = argparse.ArgumentParser()
-    parser.add_argument("--testing", help = "Select 1 to enable Henry testing mode.", type = int)
+    parser.add_argument("--testing", help = "Select 1 to enable Coey testing mode.", type = int)
     args = parser.parse_args()
 
     # Read Model Specific Configuration File
     settings = configparser.ConfigParser()
-    settings.read(os.path.expanduser('~/.henry/henry.conf'))
+    settings.read(os.path.expanduser('~/.coey/coey.conf'))
 
     # BOT Variables
     BOT_CHANNEL = settings.get('Slack', 'slack_bot_channel')
@@ -242,12 +242,12 @@ if __name__ == "__main__":
         slack_client.api_call(
             "chat.postMessage",
             channel="#general",
-            text="Hello from henry! :tada:",
+            text="Hello from Coey! :tada:",
             token=os.environ.get('SLACK_BOT_TOKEN')
         )
 
         if slack_client.rtm_connect():
-            print("Henry is listening to you.")
+            print("Coey is listening to you.")
             apiai_context = None
 
             while True:

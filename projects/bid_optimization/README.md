@@ -75,7 +75,13 @@ As time went on and we became more confident in the COE's results, we refined th
 
 Everyone on the Data Science team has strengths and responsibilities. Among mine is to report out the team's monthly achievements, during the monthly company meeting. Feedback that I've received on the COE has been interesting, impressions have ranged from initial excitement (from almost everyone including the CFO), to concern the COE is killing jobs, to making peace with the technology, and now back to excitement as we show integration of new features. 
 
+## Industry Recognition
 
+Based on this work, Pixability ![won awards](https://www.pixability.com/google-awards-pixability-global-award-video-innovation/) for innovation from Google and Gartner in the very first ![Google Premier Partner Awards competition](https://premierpartnerawards.withgoogle.com/en/winners).
+
+"Pixability emerged victorious as the global winner for video innovation! We were the only North America-based ad tech company to be shortlisted for the video innovation award. In fact, we were the only North American company to win a global award in any category, and the only YouTube Measurement Program partner to be shortlisted for an award.
+
+"
 
 ## Coey
 To make the COE more approachable to the CMs and other non-technical folks I developed COEy, our AI Slack bot. COEy enables users to enter simple commands in Slack and receive information about campaigns, brands, the weather, Barack Obama or other conversational information. The bot is essentially coey.py, a Python script which is as of this writing 2153 lines of code and auto-builds charts in Matplotlib and interacts with an API.ai back-end to facilitate contextual conversations.

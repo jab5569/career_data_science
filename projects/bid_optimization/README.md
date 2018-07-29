@@ -3,14 +3,14 @@
 
 ## Summary
 
-**Problem:** Inefficient campaign bidding
+**Problem:** Significantly optimize digital campaign bidding
 
 **Actions:** My team and I created a AI-based tool named Performability or the Campaign Optimization Engine (COE) which auto-bids the most appropriate bid amount
 
 **Results:**
-* Saved the company 25% media costs per year (> $2M)
+* Saved the company 25% in media costs per year (> $2M) while at the same time increasing customers' KPIs
 * Reduced campaign bidding time by 95% per day
-* Won awards from Google and Gartner for innovation
+* Won awards from Google and Gartner for Innovation
 * The team and I submitted patent US62403367 by approval by the USPTO
 
 

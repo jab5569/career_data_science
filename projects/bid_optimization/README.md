@@ -7,7 +7,7 @@
 
 **Actions:** My team and I created a AI-based tool named Performability or the Campaign Optimization Engine (COE) which auto-bids the most appropriate bid amount
 
-**Results:** Saved the company 25% media costs per year (> $2M); Reduced campaign bidding time by 95% per day
+**Results:** Saved the company 25% media costs per year (> $2M); Reduced campaign bidding time by 95% per day; Won awards from Google and Gartner for innovation.
 
 
 My team and I were tasked with increasing efficiency of campaign bidding, which is the core value proposition of Pixability, resulting in company saving $2M in operating costs per year.

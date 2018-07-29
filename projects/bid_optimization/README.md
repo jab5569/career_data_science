@@ -5,7 +5,7 @@
 
 **Problem:** Significantly optimize digital campaign bidding
 
-**Actions:** My team and I created a AI-based tool named Performability or the Campaign Optimization Engine (COE) which auto-bids the most appropriate bid amount
+**Actions:** My team and I created a AI-based tool named Performability or the Campaign Optimization Engine (COE) which auto-bids the most appropriate bid amount for n-number of ad groups.
 
 **Results:**
 * Saved the company 25% in media costs per year (> $2M) while at the same time increasing customers' KPIs

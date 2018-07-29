@@ -57,7 +57,7 @@ The code must be developed in such a way so as to pass the code and the applicat
 
 
 
-## Development
+# The COE
 
 With these high level goals prioritized, the Data Science team started development at the beginning of Q1'16. During that quarter the Engine's name evolved to Campaign Optimization Engine, or COE for short. I architected the Python code infrastructure - classes and methods - within a new COE Github repository. I likewise architected the data model within our Snowflake cluster, creating a new COE schema and requisite bidding tables. 
 
@@ -91,7 +91,7 @@ Based on this work, Pixability [won awards](https://www.pixability.com/google-aw
 
 "Pixability emerged victorious as the global winner for video innovation! We were the only North America-based ad tech company to be shortlisted for the video innovation award. In fact, we were the only North American company to win a global award in any category, and the only YouTube Measurement Program partner to be shortlisted for an award."
 
-## Coey
+# COEy
 To make the COE more approachable to the CMs and other non-technical folks I developed COEy, our AI Slack bot. COEy enables users to enter simple commands in Slack and receive information about campaigns, brands, the weather, Barack Obama or other conversational information. The bot is essentially coey.py, a Python script which is as of this writing 2153 lines of code and auto-builds charts in Matplotlib and interacts with an API.ai back-end to facilitate contextual conversations.
 
 I've created the coey_example.py script in this directory which shows highly modified version of coey.py so as to not violate any IP from Pixbility. It shows how I connecting her to a local database (build_graphs.py), dialogflow.com (formerly API.ai) and Slack - so she can live in a Slack channel. Below is an example conversation where her responses was generated in diaglogflow.com.

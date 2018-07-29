@@ -79,9 +79,7 @@ Everyone on the Data Science team has strengths and responsibilities. Among mine
 
 Based on this work, Pixability [won awards](https://www.pixability.com/google-awards-pixability-global-award-video-innovation/) for innovation from Google and Gartner in the very first [Google Premier Partner Awards competition](https://premierpartnerawards.withgoogle.com/en/winners).
 
-"Pixability emerged victorious as the global winner for video innovation! We were the only North America-based ad tech company to be shortlisted for the video innovation award. In fact, we were the only North American company to win a global award in any category, and the only YouTube Measurement Program partner to be shortlisted for an award.
-
-"
+"Pixability emerged victorious as the global winner for video innovation! We were the only North America-based ad tech company to be shortlisted for the video innovation award. In fact, we were the only North American company to win a global award in any category, and the only YouTube Measurement Program partner to be shortlisted for an award."
 
 ## Coey
 To make the COE more approachable to the CMs and other non-technical folks I developed COEy, our AI Slack bot. COEy enables users to enter simple commands in Slack and receive information about campaigns, brands, the weather, Barack Obama or other conversational information. The bot is essentially coey.py, a Python script which is as of this writing 2153 lines of code and auto-builds charts in Matplotlib and interacts with an API.ai back-end to facilitate contextual conversations.

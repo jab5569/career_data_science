@@ -75,7 +75,9 @@ Once the new code, data architecture and bidding API integrations were complete 
 
 As time went on and we became more confident in the COE's results, we refined the benefits not only to the company (reduced costs), we likewise started conveying the benefits to our customers. Not only did the COE provide cost efficiencies, through subsequent analysis it became clear that increased other metrics important to our customers. See below just one example of View Rate (VR) being improved. 
 
-![COE Results](images/COE-VR.png)
+<p align="center">
+  <img src="images/COE-VR.png">
+</p>
 
 Everyone on the Data Science team has strengths and responsibilities. Among mine is to report out the team's monthly achievements, during the monthly company meeting. Feedback that I've received on the COE has been interesting, impressions have ranged from initial excitement (from almost everyone including the CFO), to concern the COE is killing jobs, to making peace with the technology, and now back to excitement as we show integration of new features. 
 
@@ -94,7 +96,9 @@ To make the COE more approachable to the CMs and other non-technical folks I dev
 
 I've created the coey_example.py script in this directory which shows highly modified version of coey.py so as to not violate any IP from Pixbility. It shows how I connecting her to a local database (build_graphs.py), dialogflow.com (formerly API.ai) and Slack - so she can live in a Slack channel. Below is an example conversation where her responses was generated in diaglogflow.com.
 
-![COEY](images/coey_in_slack.png)
+<p align="center">
+  <img src="images/coey_in_slack.png">
+</p>
 
 While we've added many more features since the initial version, fast forwarding to now and we are supporting over 1500 simultaneous campaigns. The following, non-sensitive, slide shows the benefits of Performability: it achieves optimal pacing while at the same time maximizing customers’ KPI goals. 
 

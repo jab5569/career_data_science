@@ -67,7 +67,9 @@ I also architected and helped build Kafka pipelines which pulled data from Sales
 
 I worked with Engineering to plan how Data Science would utilize their new programmatic API's which submits bids within a given ad platform and planned that work for the team.
 
+## The Heart of the COE
 
+Determining the most appropriate bid level for any given campaign, within context of its objective, pacing type, and many other considerations is achieved through a Recurrent Neural Net using a Long Short Term Memory module. Using this approach not only provides us bid levels for tomorrow, but into the future as well. With this technology we can make inferences on future campaign spend. Eg, within a error range I can tell the CFO how much our marketing spend we'll likely incur for the remainder of the month. Providing any additional detail would violate my non-disclosure with the company.
 
 ## Initial Results
 
@@ -99,8 +101,3 @@ I've created the coey_example.py script in this directory which shows highly mod
 <p align="center">
   <img src="images/coey_in_slack.png">
 </p>
-
-## The Heart of the COE
-
-Determining the most appropriate bid level for any given campaign, within context of its objective, pacing type, and many other considerations is achieved through a Recurrent Neural Net using a Long Short Term Memory module. Using this approach not only provides us bid levels for tomorrow, but into the future as well. With this technology we can make inferences on future campaign spend. Eg, within a error range I can tell the CFO how much our marketing spend we'll likely incur for the remainder of the month. Providing any additional detail would violate my non-disclosure with the company.
-

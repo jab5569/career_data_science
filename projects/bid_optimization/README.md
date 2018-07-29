@@ -83,6 +83,8 @@ Everyone on the Data Science team has strengths and responsibilities. Among mine
 
 Based on this work, Pixability [won awards](https://www.pixability.com/google-awards-pixability-global-award-video-innovation/) for innovation from Google and Gartner in the very first [Google Premier Partner Awards competition](https://premierpartnerawards.withgoogle.com/en/winners).
 
+![Google and Gartner Awards](images/pix_ds_awards.png)
+
 "Pixability emerged victorious as the global winner for video innovation! We were the only North America-based ad tech company to be shortlisted for the video innovation award. In fact, we were the only North American company to win a global award in any category, and the only YouTube Measurement Program partner to be shortlisted for an award."
 
 ## Coey

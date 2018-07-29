@@ -76,7 +76,7 @@ Once the new code, data architecture and bidding API integrations were complete 
 As time went on and we became more confident in the COE's results, we refined the benefits not only to the company (reduced costs), we likewise started conveying the benefits to our customers. Not only did the COE provide cost efficiencies, through subsequent analysis it became clear that it increased other metrics important to our customers. While we've added many more features since the initial version, fast forwarding to now and we are supporting over 1500 simultaneous campaigns. The following, non-sensitive, slide shows the benefits of Performability: it achieves optimal pacing while at the same time maximizing customers’ KPI goals. 
 
 <p align="center">
-  <img src="images/COE-VR.png">
+  <img style="border:1px solid #d3d3d3" src="images/COE-VR.png">
 </p>
 
 Everyone on the Data Science team has strengths and responsibilities. Among mine is to report out the team's monthly achievements, during the monthly company meeting. Feedback that I've received on the COE has been interesting, impressions have ranged from initial excitement (from almost everyone including the CFO), to concern the COE is killing jobs, to making peace with the technology, and now back to excitement as we show integration of new features. 

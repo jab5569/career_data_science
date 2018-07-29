@@ -73,7 +73,7 @@ I worked with Engineering to plan how Data Science would utilize their new progr
 
 Once the new code, data architecture and bidding API integrations were complete we ran the COE on a lone campaign. To ensure there was no false positive bias, the CM's ran the campaign manually for the first two weeks followed by the COE on it for the remaining two. At the end of that campaign I performed the analysis which showed convincingly that the COE was 25% more efficient than the human! I delivered the findings in a Tableau dashboard.
 
-As time went on and we became more confident in the COE's results, we refined the benefits not only to the company (reduced costs), we likewise started conveying the benefits to our customers. Not only did the COE provide cost efficiencies, through subsequent analysis it became clear that increased other metrics important to our customers. See below just one example of View Rate (VR) being improved. 
+As time went on and we became more confident in the COE's results, we refined the benefits not only to the company (reduced costs), we likewise started conveying the benefits to our customers. Not only did the COE provide cost efficiencies, through subsequent analysis it became clear that it increased other metrics important to our customers. While we've added many more features since the initial version, fast forwarding to now and we are supporting over 1500 simultaneous campaigns. The following, non-sensitive, slide shows the benefits of Performability: it achieves optimal pacing while at the same time maximizing customers’ KPI goals. 
 
 <p align="center">
   <img src="images/COE-VR.png">
@@ -86,7 +86,7 @@ Everyone on the Data Science team has strengths and responsibilities. Among mine
 Based on this work, Pixability [won awards](https://www.pixability.com/google-awards-pixability-global-award-video-innovation/) for innovation from Google and Gartner in the very first [Google Premier Partner Awards competition](https://premierpartnerawards.withgoogle.com/en/winners).
 
 <p align="center">
-  <img src="images/pix_ds_awards.png">
+  <img style="border:1px solid #d3d3d3" src="images/pix_ds_awards.png">
 </p>
 
 "Pixability emerged victorious as the global winner for video innovation! We were the only North America-based ad tech company to be shortlisted for the video innovation award. In fact, we were the only North American company to win a global award in any category, and the only YouTube Measurement Program partner to be shortlisted for an award."
@@ -100,10 +100,7 @@ I've created the coey_example.py script in this directory which shows highly mod
   <img src="images/coey_in_slack.png">
 </p>
 
-While we've added many more features since the initial version, fast forwarding to now and we are supporting over 1500 simultaneous campaigns. The following, non-sensitive, slide shows the benefits of Performability: it achieves optimal pacing while at the same time maximizing customers’ KPI goals. 
-
-
 ## The Heart of the COE
 
-Determining the most appropriate bid level for any given campaign, within context of its objective, pacing type, and many other considerations is achieved through a Recurrent Neural Net using a Long Short Term Memory module. Using this approach not only provides us bid levels for tomorrow, but into the future as well. With this technology we can make inferences on future campaign spend. Eg, within a error range I can tell the CFO how much our marketing spend we'll likely incur for the remainder of the month. 
+Determining the most appropriate bid level for any given campaign, within context of its objective, pacing type, and many other considerations is achieved through a Recurrent Neural Net using a Long Short Term Memory module. Using this approach not only provides us bid levels for tomorrow, but into the future as well. With this technology we can make inferences on future campaign spend. Eg, within a error range I can tell the CFO how much our marketing spend we'll likely incur for the remainder of the month. Providing any additional detail would violate my non-disclosure with the company.
 
